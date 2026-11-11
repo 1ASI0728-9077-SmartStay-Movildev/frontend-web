@@ -1,0 +1,51 @@
+{
+  "option": {
+    "home": "Inicio",
+    "new-shelves": "Nuevos Estantes"
+  },
+
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "utilizando",
+    "author": "por el Equipo de CLZ Games"
+  },
+
+  "home": {
+    "title": "Inicio",
+    "content": "Software de Base de Datos de Videojuegos",
+    "my-games-shelves": "Mis Estantes de Juegos",
+    "no-shelves": "No hay estantes disponibles",
+    "empty": "Vacío",
+    "total-games": "Total de Juegos",
+    "available-capacity": "Capacidad Disponible"
+  },
+
+  "storage-item": {
+    "title": "Nuevo Storage Item",
+    "subtitle": "Agregar Juegos a Tu Estante",
+    "genre": "Género de Juego",
+    "select-genre": "Selecciona un género",
+    "game": "Juego",
+    "select-game": "Selecciona un juego",
+    "quantity": "Cantidad",
+    "available-capacity": "Capacidad Disponible",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "invalid-capacity": "La cantidad excede la capacidad disponible"
+  },
+
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "La ruta {unavailable-route} no está disponible.",
+    "go-home": "Ir al Inicio"
+  },
+
+  "errors": {
+    "occurred": "Ocurrieron errores"
+  },
+
+  "table": {
+    "noData": "No hay datos disponibles",
+    "loading": "Cargando..."
+  }
+}

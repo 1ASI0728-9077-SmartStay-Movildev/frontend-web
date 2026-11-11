@@ -1,0 +1,51 @@
+{
+  "option": {
+    "home": "Home",
+    "new-shelves": "New Shelves"
+  },
+
+  "authoring-phrase": {
+    "intro": "Made with",
+    "use": "using",
+    "author": "by CLZ Games Team"
+  },
+
+  "home": {
+    "title": "Home",
+    "content": "Video Game Database Software",
+    "my-games-shelves": "My Games Shelves",
+    "no-shelves": "No shelves available",
+    "empty": "Empty",
+    "total-games": "Total Games",
+    "available-capacity": "Available Capacity"
+  },
+
+  "storage-item": {
+    "title": "New Storage Item",
+    "subtitle": "Add Games to Your Shelf",
+    "genre": "Game Genre",
+    "select-genre": "Select a genre",
+    "game": "Game",
+    "select-game": "Select a game",
+    "quantity": "Quantity",
+    "available-capacity": "Available Capacity",
+    "create": "Create",
+    "cancel": "Cancel",
+    "invalid-capacity": "Quantity exceeds available capacity"
+  },
+
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} is not available.",
+    "go-home": "Go Home"
+  },
+
+  "errors": {
+    "occurred": "Errors occurred"
+  },
+
+  "table": {
+    "noData": "No data available",
+    "loading": "Loading..."
+  }
+}
