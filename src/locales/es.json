@@ -1,51 +1,206 @@
 {
-  "option": {
+  "nav": {
     "home": "Inicio",
-    "new-shelves": "Nuevos Estantes"
+    "catalog": "Catálogo",
+    "bookings": "Mis reservas",
+    "payments": "Pagos",
+    "profile": "Mi perfil",
+    "concierge": "Asistente IA",
+    "accommodations": "Hoteles y habitaciones",
+    "bookingAdmin": "Consulta de reservas",
+    "users": "Usuarios",
+    "profiles": "Perfiles",
+    "analytics": "Métricas",
+    "login": "Iniciar sesión",
+    "bookingNew": "Nueva reserva",
+    "bookingDetail": "Detalle de reserva",
+    "forbidden": "Acceso no permitido",
+    "notFound": "Página no encontrada",
+    "explore": "Explorar en 3D",
+    "exploreRoom": "Explorar habitación"
   },
-
-  "authoring-phrase": {
-    "intro": "Hecho con",
-    "use": "utilizando",
-    "author": "por el Equipo de CLZ Games"
-  },
-
-  "home": {
-    "title": "Inicio",
-    "content": "Software de Base de Datos de Videojuegos",
-    "my-games-shelves": "Mis Estantes de Juegos",
-    "no-shelves": "No hay estantes disponibles",
-    "empty": "Vacío",
-    "total-games": "Total de Juegos",
-    "available-capacity": "Capacidad Disponible"
-  },
-
-  "storage-item": {
-    "title": "Nuevo Storage Item",
-    "subtitle": "Agregar Juegos a Tu Estante",
-    "genre": "Género de Juego",
-    "select-genre": "Selecciona un género",
-    "game": "Juego",
-    "select-game": "Selecciona un juego",
-    "quantity": "Cantidad",
-    "available-capacity": "Capacidad Disponible",
-    "create": "Crear",
+  "common": {
+    "loading": "Cargando…",
+    "empty": "No hay resultados.",
+    "menu": "Menú",
+    "language": "Idioma",
+    "open": "Abrir",
+    "search": "Buscar",
+    "refresh": "Actualizar",
+    "details": "Ver detalle",
     "cancel": "Cancelar",
-    "invalid-capacity": "La cantidad excede la capacidad disponible"
+    "back": "Volver",
+    "create": "Crear perfil",
+    "searchBy": "Buscar por",
+    "send": "Enviar"
   },
-
-  "page-not-found": {
-    "title": "Página no encontrada",
-    "content": "La ruta {unavailable-route} no está disponible.",
-    "go-home": "Ir al Inicio"
+  "auth": {
+    "logout": "Cerrar sesión",
+    "description": "Ingresa con tu usuario de SmartStay.",
+    "expired": "Tu sesión venció o dejó de ser válida. Inicia sesión de nuevo.",
+    "usernameHelp": "De 3 a 100 caracteres: letras, números, _, . o {'@'}.",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "invalid": "Revisa el usuario y la contraseña (mínimo 6 caracteres).",
+    "badCredentials": "Usuario o contraseña incorrectos."
   },
-
+  "home": {
+    "welcome": "Hola, {name}",
+    "description": "Encuentra alojamiento y gestiona tus actividades en SmartStay.",
+    "noScope": "No tienes un hotel asignado. Las operaciones dependen del alcance autorizado por el servidor."
+  },
+  "roles": {
+    "guest": "Huésped",
+    "admin": "Administrador de hotel",
+    "chain_admin": "Administrador de cadena",
+    "staff": "Personal",
+    "reception": "Recepción",
+    "housekeeping": "Limpieza",
+    "maintenance": "Mantenimiento"
+  },
   "errors": {
-    "occurred": "Ocurrieron errores"
+    "validation": "Revisa los datos enviados.",
+    "unauthorized": "La sesión no es válida. Inicia sesión de nuevo.",
+    "forbidden": "No tienes permiso para esta operación.",
+    "notFound": "No se encontró el recurso solicitado.",
+    "conflict": "La operación presenta un conflicto. Actualiza el estado antes de continuar.",
+    "rateLimit": "Se alcanzó el límite de solicitudes. Espera antes de volver a enviar.",
+    "unavailable": "El servicio no está disponible. Comprueba la conexión y vuelve a intentarlo."
   },
-
-  "table": {
-    "noData": "No hay datos disponibles",
-    "loading": "Cargando..."
+  "fields": {
+    "username": "Usuario",
+    "password": "Contraseña",
+    "district": "Distrito",
+    "guests": "Huéspedes",
+    "minPrice": "Precio mínimo por noche",
+    "maxPrice": "Precio máximo por noche",
+    "minArea": "Área mínima (m²)",
+    "bedType": "Tipo de cama",
+    "capacity": "Capacidad",
+    "totalAmount": "Total de la estancia",
+    "roomId": "ID de habitación",
+    "hotelId": "ID de hotel",
+    "chainId": "ID de cadena",
+    "guestName": "Nombre del huésped",
+    "guestEmail": "Correo del huésped",
+    "checkInDate": "Fecha de entrada",
+    "checkOutDate": "Fecha de salida",
+    "bookingId": "ID de reserva",
+    "amount": "Importe",
+    "cardNumber": "Número de tarjeta de prueba",
+    "cardHolderName": "Titular de prueba",
+    "expirationDate": "Vencimiento de prueba",
+    "cvv": "CVV de prueba",
+    "transactionId": "Transacción",
+    "firstName": "Nombres",
+    "lastName": "Apellidos",
+    "email": "Correo",
+    "street": "Calle",
+    "number": "Número",
+    "city": "Ciudad",
+    "postalCode": "Código postal",
+    "country": "País",
+    "profileId": "ID de perfil",
+    "userId": "ID de usuario",
+    "price": "Precio",
+    "message": "Mensaje",
+    "checkIn": "Fecha de entrada",
+    "checkOut": "Fecha de salida",
+    "budgetTotal": "Presupuesto total (USD)",
+    "currency": "Moneda"
+  },
+  "rooms": {
+    "night": "noche",
+    "hasVr": "Recorrido VR disponible",
+    "unavailable": "No disponible para reservar",
+    "loginToBook": "Inicia sesión para reservar",
+    "hotels": "Hoteles",
+    "rooms": "Habitaciones",
+    "types": "Tipos de habitación",
+    "categories": "Categorías",
+    "amenities": "Comodidades"
+  },
+  "bookings": {
+    "reserve": "Reservar",
+    "booking": "Reserva",
+    "confirm": "Confirmar reserva",
+    "cancelQuestion": "¿Quieres cancelar esta reserva?",
+    "cancelYes": "Sí, cancelar reserva"
+  },
+  "payments": {
+    "pay": "Pagar simulación",
+    "simulated": "Pagos simulados: introduce únicamente datos de prueba. No uses una tarjeta real.",
+    "result": "Resultado del pago",
+    "async": "La confirmación de la reserva puede tardar. Actualiza para consultar su estado real.",
+    "none": "No hay un pago registrado para esta reserva.",
+    "uncertain": "No se pudo conocer el resultado. Consulta primero el pago; si no existe, puedes reenviar el mismo intento. No cambies los datos ni recargues la página durante el reintento.",
+    "retry": "Reintentar el mismo pago",
+    "useTestData": "Usar datos de prueba",
+    "flexible": "Puedes escribir el número con espacios o guiones. El servidor valida la tarjeta de prueba."
+  },
+  "profiles": {
+    "missing": "Aún no tienes un perfil. Completa tus datos para crearlo."
+  },
+  "metrics": {
+    "totalRevenue": "Ingresos totales",
+    "totalBookings": "Total de reservas",
+    "occupancyRate": "Ocupación",
+    "cancelledBookings": "Reservas canceladas",
+    "generatedAt": "Fecha de generación"
+  },
+  "concierge": {
+    "fallback": "Respuesta alternativa del catálogo: no se utilizó una recomendación de IA para este resultado.",
+    "description": "Cuéntanos qué alojamiento buscas. La IA te ayuda a descubrir opciones verificadas del catálogo.",
+    "preferences": "Tu estancia",
+    "independent": "Cada consulta usa estas preferencias. El historial se conserva solo mientras estás en esta pantalla.",
+    "conversation": "Conversación",
+    "clear": "Nueva conversación",
+    "welcome": "Encuentra tu próxima estancia",
+    "suggestion": "Elige tus fechas y presupuesto, y pregunta por una habitación para tu viaje.",
+    "you": "Tú",
+    "thinking": "Buscando recomendaciones…",
+    "failed": "No pudimos responder a este mensaje. Puedes recuperarlo y volver a enviarlo.",
+    "recover": "Recuperar mensaje",
+    "aiAssisted": "Recomendación asistida por IA",
+    "placeholder": "Por ejemplo: busco una habitación tranquila para dos personas"
+  },
+  "validation": {
+    "stay": "La salida debe ser posterior a la entrada y la estancia debe ser de 1 a 30 noches.",
+    "card": "Completa los datos de prueba antes de enviar.",
+    "concierge": "Revisa el mensaje (1–500 caracteres), la estancia (1–30 noches), los huéspedes (1–10) y el presupuesto no negativo."
+  },
+  "statuses": {
+    "PendingPayment": "Pendiente de pago",
+    "Confirmed": "Confirmada",
+    "Cancelled": "Cancelada",
+    "Expired": "Vencida",
+    "Pending": "Pendiente",
+    "Completed": "Completado",
+    "Failed": "Fallido",
+    "Refunded": "Reembolsado",
+    "Active": "Activo",
+    "Inactive": "Inactivo",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "explore": {
+    "description": "Descubre la distribución de las habitaciones en 3D y recorre sus panorámicas disponibles.",
+    "selectRoom": "Elige una habitación",
+    "room3d": "Habitación 3D",
+    "tour": "Recorrido 360°",
+    "viewMode": "Tipo de recorrido",
+    "walls": "Ver paredes",
+    "reset": "Restablecer vista",
+    "controls": "Arrastra para rotar. Usa la rueda o dos dedos para acercar; arrastra con el botón derecho o dos dedos para desplazar. También puedes enfocar el visor y usar las flechas.",
+    "schematic": "Representación esquemática basada en las dimensiones y distribución del alojamiento. Los acabados del visor son ilustrativos.",
+    "height": "Altura",
+    "location": "Ubicación",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "webgl": "No se pudo iniciar o se perdió el visor WebGL. Prueba con aceleración gráfica o un navegador compatible.",
+    "invalidScene": "Esta habitación no tiene una escena 3D válida disponible.",
+    "invalidTour": "El manifiesto del recorrido no contiene ubicaciones válidas.",
+    "textureError": "No se pudo cargar la panorámica indicada por el backend. La vista 3D sigue disponible en su pestaña.",
+    "panoramaControls": "Arrastra para mirar alrededor. Usa + y − para acercar o alejar y cambia de ubicación con los botones del recorrido."
   }
 }

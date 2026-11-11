@@ -1,51 +1,206 @@
 {
-  "option": {
+  "nav": {
     "home": "Home",
-    "new-shelves": "New Shelves"
+    "catalog": "Catalog",
+    "bookings": "My bookings",
+    "payments": "Payments",
+    "profile": "My profile",
+    "concierge": "AI assistant",
+    "accommodations": "Hotels and rooms",
+    "bookingAdmin": "Booking queries",
+    "users": "Users",
+    "profiles": "Profiles",
+    "analytics": "Metrics",
+    "login": "Sign in",
+    "bookingNew": "New booking",
+    "bookingDetail": "Booking details",
+    "forbidden": "Access denied",
+    "notFound": "Page not found",
+    "explore": "Explore in 3D",
+    "exploreRoom": "Explore room"
   },
-
-  "authoring-phrase": {
-    "intro": "Made with",
-    "use": "using",
-    "author": "by CLZ Games Team"
-  },
-
-  "home": {
-    "title": "Home",
-    "content": "Video Game Database Software",
-    "my-games-shelves": "My Games Shelves",
-    "no-shelves": "No shelves available",
-    "empty": "Empty",
-    "total-games": "Total Games",
-    "available-capacity": "Available Capacity"
-  },
-
-  "storage-item": {
-    "title": "New Storage Item",
-    "subtitle": "Add Games to Your Shelf",
-    "genre": "Game Genre",
-    "select-genre": "Select a genre",
-    "game": "Game",
-    "select-game": "Select a game",
-    "quantity": "Quantity",
-    "available-capacity": "Available Capacity",
-    "create": "Create",
+  "common": {
+    "loading": "Loading...",
+    "empty": "No results.",
+    "menu": "Menu",
+    "language": "Language",
+    "open": "Open",
+    "search": "Search",
+    "refresh": "Refresh",
+    "details": "View details",
     "cancel": "Cancel",
-    "invalid-capacity": "Quantity exceeds available capacity"
+    "back": "Back",
+    "create": "Create profile",
+    "searchBy": "Search by",
+    "send": "Send"
   },
-
-  "page-not-found": {
-    "title": "Page Not Found",
-    "content": "The path {unavailable-route} is not available.",
-    "go-home": "Go Home"
+  "auth": {
+    "logout": "Sign out",
+    "description": "Sign in with your SmartStay username.",
+    "expired": "Your session has expired or is no longer valid. Please sign in again.",
+    "usernameHelp": "3-100 characters: letters, numbers, _, . or {'@'}.",
+    "show": "Show",
+    "hide": "Hide",
+    "invalid": "Check your username and password (at least 6 characters).",
+    "badCredentials": "Incorrect username or password."
   },
-
+  "home": {
+    "welcome": "Hello, {name}",
+    "description": "Find accommodation and manage your activities in SmartStay.",
+    "noScope": "You have no assigned hotel. Operations depend on the scope authorized by the server."
+  },
+  "roles": {
+    "guest": "Guest",
+    "admin": "Hotel administrator",
+    "chain_admin": "Chain administrator",
+    "staff": "Staff",
+    "reception": "Reception",
+    "housekeeping": "Housekeeping",
+    "maintenance": "Maintenance"
+  },
   "errors": {
-    "occurred": "Errors occurred"
+    "validation": "Please check the submitted information.",
+    "unauthorized": "Your session is invalid. Please sign in again.",
+    "forbidden": "You do not have permission for this operation.",
+    "notFound": "The requested resource was not found.",
+    "conflict": "The operation has a conflict. Refresh its status before continuing.",
+    "rateLimit": "Request limit reached. Please wait before sending again.",
+    "unavailable": "The service is unavailable. Check your connection and try again."
   },
-
-  "table": {
-    "noData": "No data available",
-    "loading": "Loading..."
+  "fields": {
+    "username": "Username",
+    "password": "Password",
+    "district": "District",
+    "guests": "Guests",
+    "minPrice": "Minimum nightly price",
+    "maxPrice": "Maximum nightly price",
+    "minArea": "Minimum area (m2)",
+    "bedType": "Bed type",
+    "capacity": "Capacity",
+    "totalAmount": "Stay total",
+    "roomId": "Room ID",
+    "hotelId": "Hotel ID",
+    "chainId": "Chain ID",
+    "guestName": "Guest name",
+    "guestEmail": "Guest email",
+    "checkInDate": "Check-in date",
+    "checkOutDate": "Check-out date",
+    "bookingId": "Booking ID",
+    "amount": "Amount",
+    "cardNumber": "Test card number",
+    "cardHolderName": "Test cardholder",
+    "expirationDate": "Test expiration",
+    "cvv": "Test CVV",
+    "transactionId": "Transaction",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "street": "Street",
+    "number": "Number",
+    "city": "City",
+    "postalCode": "Postal code",
+    "country": "Country",
+    "profileId": "Profile ID",
+    "userId": "User ID",
+    "price": "Price",
+    "message": "Message",
+    "checkIn": "Check-in date",
+    "checkOut": "Check-out date",
+    "budgetTotal": "Total budget (USD)",
+    "currency": "Currency"
+  },
+  "rooms": {
+    "night": "night",
+    "hasVr": "VR tour available",
+    "unavailable": "Not available to book",
+    "loginToBook": "Sign in to book",
+    "hotels": "Hotels",
+    "rooms": "Rooms",
+    "types": "Room types",
+    "categories": "Categories",
+    "amenities": "Amenities"
+  },
+  "bookings": {
+    "reserve": "Book",
+    "booking": "Booking",
+    "confirm": "Confirm booking",
+    "cancelQuestion": "Do you want to cancel this booking?",
+    "cancelYes": "Yes, cancel booking"
+  },
+  "payments": {
+    "pay": "Submit simulated payment",
+    "simulated": "Simulated payments: enter test data only. Do not use a real card.",
+    "result": "Payment result",
+    "async": "Booking confirmation may take time. Refresh to check its actual status.",
+    "none": "There is no payment recorded for this booking.",
+    "uncertain": "The result is unknown. Check the payment first; if it does not exist, you can resend the same attempt. Do not change the information or reload the page during a retry.",
+    "retry": "Retry the same payment",
+    "useTestData": "Use test data",
+    "flexible": "Spaces and hyphens are accepted. The server validates the test card."
+  },
+  "profiles": {
+    "missing": "You do not have a profile yet. Complete your information to create one."
+  },
+  "metrics": {
+    "totalRevenue": "Total revenue",
+    "totalBookings": "Total bookings",
+    "occupancyRate": "Occupancy",
+    "cancelledBookings": "Cancelled bookings",
+    "generatedAt": "Generated at"
+  },
+  "concierge": {
+    "fallback": "Alternative catalog response: no AI recommendation was used for this result.",
+    "description": "Tell us what accommodation you need. AI helps you discover verified catalog options.",
+    "preferences": "Your stay",
+    "independent": "Each request uses these preferences. History is kept only while you remain on this screen.",
+    "conversation": "Conversation",
+    "clear": "New conversation",
+    "welcome": "Find your next stay",
+    "suggestion": "Choose your dates and budget, then ask for a room for your trip.",
+    "you": "You",
+    "thinking": "Finding recommendations…",
+    "failed": "We could not answer this message. You can recover it and send it again.",
+    "recover": "Recover message",
+    "aiAssisted": "AI-assisted recommendation",
+    "placeholder": "For example: I need a quiet room for two people"
+  },
+  "validation": {
+    "stay": "Check-out must follow check-in and the stay must be 1?30 nights.",
+    "card": "Complete the test details before sending.",
+    "concierge": "Check your message (1-500 characters), stay (1-30 nights), guests (1-10), and non-negative budget."
+  },
+  "statuses": {
+    "PendingPayment": "Pending payment",
+    "Confirmed": "Confirmed",
+    "Cancelled": "Cancelled",
+    "Expired": "Expired",
+    "Pending": "Pending",
+    "Completed": "Completed",
+    "Failed": "Failed",
+    "Refunded": "Refunded",
+    "Active": "Active",
+    "Inactive": "Inactive",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "explore": {
+    "description": "Discover room layouts in 3D and explore their available panoramic tours.",
+    "selectRoom": "Choose a room",
+    "room3d": "3D room",
+    "tour": "360° tour",
+    "viewMode": "Tour type",
+    "walls": "Show walls",
+    "reset": "Reset view",
+    "controls": "Drag to rotate. Use the wheel or pinch to zoom; right-drag or use two fingers to pan. You can also focus the viewer and use arrow keys.",
+    "schematic": "Schematic representation based on the accommodation's dimensions and layout. Viewer finishes are illustrative.",
+    "height": "Height",
+    "location": "Location",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "webgl": "The WebGL viewer could not start or its context was lost. Try hardware acceleration or a compatible browser.",
+    "invalidScene": "This room does not have a valid 3D scene available.",
+    "invalidTour": "The tour manifest does not contain valid locations.",
+    "textureError": "The panorama specified by the backend could not be loaded. The 3D view remains available in its tab.",
+    "panoramaControls": "Drag to look around. Use + and − to zoom, and switch locations with the tour buttons."
   }
 }

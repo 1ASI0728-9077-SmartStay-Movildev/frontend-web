@@ -1,12 +1,6 @@
+import { createI18n } from 'vue-i18n';
 import en from './locales/en.json';
 import es from './locales/es.json';
-import {createI18n} from "vue-i18n";
-
-const i18n = createI18n({
-    legacy: false,
-    locale: 'en',
-    fallbackLocale: 'en',
-    messages: { en, es}
-});
-
-export default i18n;
+let locale = 'es';
+try { if (['es', 'en'].includes(localStorage.getItem('smartstay.locale'))) locale = localStorage.getItem('smartstay.locale'); } catch { /* Use Spanish. */ }
+export default createI18n({ legacy: false, locale, fallbackLocale: 'es', messages: { en, es } });
