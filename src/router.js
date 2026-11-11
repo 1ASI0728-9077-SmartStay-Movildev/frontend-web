@@ -6,8 +6,11 @@ const pageNotFound = () => import('./shared/presentation/views/page-not-found.vu
 
 const routes = [
     { path: '/',                redirect: '/home' },
+
     { path: '/home',            name: 'home',       component: Home,           meta: { title: 'Home' } },
     { path: '/storage',         name: 'storage',    children: shelvingRoutes,  meta: { title: 'Shelving' } },
+
+
     { path: '/:pathMatch(.*)*', name: 'not-found',  component: pageNotFound,   meta: { title: 'Page Not Found' } }
 ]
 

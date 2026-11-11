@@ -23,7 +23,7 @@ const items = [
     <pv-toolbar class="bg-primary">
       <template #start>
         <pv-button class="p-button-text" icon="pi pi-bars" @click="toggleDrawer"/>
-        <img src="/merck_logo.svg" alt="CLZ Games Logo" class="logo" />
+        <img src="/logo.png" alt="CLZ Games Logo" class="logo" />
         <h3>CLZ Games the best collectors</h3>
       </template>
       <template #center>
